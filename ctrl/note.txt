@@ -1,0 +1,4 @@
+epuck 1821  camera doesn't work correctly, strange image colors
+epuck 1791 ip 192.168.0.56 resistor is not removed
+epuck 1794 ip 192.168.0.27
+epuck 1960 ip 192.168.0.34

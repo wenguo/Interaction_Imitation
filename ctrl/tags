@@ -1,0 +1,237 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTIONSEQUENCE_HH	ActionSequence.hh	2;"	d
+ACTOR_A	epuck.hh	/^enum role_t{OBSERVER, ACTOR_A, ACTOR_B, UNKNOWN_ROLE};$/;"	e	enum:role_t
+ACTOR_B	epuck.hh	/^enum role_t{OBSERVER, ACTOR_A, ACTOR_B, UNKNOWN_ROLE};$/;"	e	enum:role_t
+ARGS_HH	args.hh	2;"	d
+ActionSequence	ActionSequence.cc	/^ActionSequence::ActionSequence(const char * str, int lspeed, int rspeed, int d, int s)$/;"	f	class:ActionSequence
+ActionSequence	ActionSequence.hh	/^class ActionSequence$/;"	c
+ActionSequenceList	ActionSequence.cc	/^ActionSequenceList::ActionSequenceList()$/;"	f	class:ActionSequenceList
+ActionSequenceList	ActionSequence.hh	/^class ActionSequenceList$/;"	c
+Avg	utils.hh	/^		inline int32_t Avg() {return sum \/ size;}$/;"	f	class:Hist
+Avoidance	epuck.cc	/^void Robot::Avoidance()$/;"	f	class:Robot
+BINDIR	Makefile	/^BINDIR = .$/;"	m
+BYEBYE	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+BlobDetection	epuck.cc	/^void *Robot::BlobDetection(void * ptr)$/;"	f	class:Robot
+Blob_info	epuck.hh	/^        Blob_info():$/;"	f	class:Blob_info
+Blob_info	epuck.hh	/^class Blob_info$/;"	c
+ByeBye	epuck.cc	/^void Robot::ByeBye()$/;"	f	class:Robot
+CC	Makefile	/^CC = g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS  =  -Wall -g -D_GNU_SOURCE$/;"	m
+EPUCH_H	epuck.hh	2;"	d
+Empty	ActionSequence.cc	/^bool ActionSequenceList::Empty()$/;"	f	class:ActionSequenceList
+Front	ActionSequence.hh	/^		ActionSequence* Front()$/;"	f	class:ActionSequenceList
+GREETINGA	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+GREETINGB	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+GreetingA	epuck.cc	/^void Robot::GreetingA()$/;"	f	class:Robot
+GreetingB	epuck.cc	/^void Robot::GreetingB()$/;"	f	class:Robot
+Hist	utils.cc	/^Hist::Hist(uint8_t s )$/;"	f	class:Hist
+Hist	utils.hh	/^class Hist$/;"	c
+IPATH	Makefile	/^IPATH = .$/;"	m
+IPATH	Makefile	/^IPATH = ..\/$/;"	m
+InitGreetingA	epuck.cc	/^void Robot::InitGreetingA()$/;"	f	class:Robot
+InitGreetingB	epuck.cc	/^void Robot::InitGreetingB()$/;"	f	class:Robot
+Initialise	epuck.cc	/^bool Robot::Initialise()$/;"	f	class:Robot
+KEY_BOARD_PATH	support.c	17;"	d	file:
+LIBS	Makefile	/^LIBS = -lpthread$/;"	m
+LeftSpeed	ActionSequence.hh	/^        inline int LeftSpeed() {return leftspeed;}$/;"	f	class:ActionSequence
+MAX_OBJECTS_TRACKED	epuck.hh	14;"	d
+Monitor	epuck.cc	/^void *Robot::Monitor(void * ptr)$/;"	f	class:Robot
+NUM_BLOB_CHANNELS	epuck.hh	13;"	d
+NUM_IRS	epuck.hh	12;"	d
+Name	ActionSequence.hh	/^		const char* Name() {return name;}$/;"	f	class:ActionSequence
+Node	ActionSequence.hh	/^				Node(){as = NULL; next=NULL;};$/;"	f	class:ActionSequenceList::Node
+Node	ActionSequence.hh	/^		class Node$/;"	c	class:ActionSequenceList
+OBJDIR	Makefile	/^OBJDIR = build__$/;"	m
+OBJECTS	Makefile	/^OBJECTS = $(SRC:%.cc=$(OBJDIR)\/%.o)$/;"	m
+OBSERVER	epuck.hh	/^enum role_t{OBSERVER, ACTOR_A, ACTOR_B, UNKNOWN_ROLE};$/;"	e	enum:role_t
+OBSERVING	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+OFF	main.cc	16;"	d	file:
+ON	main.cc	15;"	d	file:
+Observing	epuck.cc	/^void Robot::Observing()$/;"	f	class:Robot
+PIXEL_FORMAT	epuck.hh	16;"	d
+Pop_Front	ActionSequence.cc	/^void ActionSequenceList::Pop_Front()$/;"	f	class:ActionSequenceList
+Print	utils.cc	/^void Hist::Print()$/;"	f	class:Hist
+PrintProximity	epuck.cc	/^void Robot::PrintProximity()$/;"	f	class:Robot
+PrintStatus	epuck.cc	/^void Robot::PrintStatus()$/;"	f	class:Robot
+Push	utils.cc	/^void Hist::Push(int32_t value)$/;"	f	class:Hist
+Push_Back	ActionSequence.cc	/^void ActionSequenceList::Push_Back(ActionSequence* seq)$/;"	f	class:ActionSequenceList
+RANDOMWALK	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+RX_BUFFER_SIZE	epuck.cc	615;"	d	file:
+RandomWalk	epuck.cc	/^void Robot::RandomWalk()$/;"	f	class:Robot
+Reset	epuck.hh	/^        void Reset()$/;"	f	class:Blob_info
+Reset	utils.cc	/^void Hist::Reset()$/;"	f	class:Hist
+Resize	utils.cc	/^void Hist::Resize(uint8_t s)$/;"	f	class:Hist
+RightSpeed	ActionSequence.hh	/^        inline int RightSpeed() {return rightspeed;}$/;"	f	class:ActionSequence
+Robot	epuck.cc	/^Robot::Robot(const char * str)$/;"	f	class:Robot
+Robot	epuck.hh	/^class Robot$/;"	c
+SEARCHING	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+SENSOR_TRIGGERED_MIN_INTERVAL	ActionSequence.hh	9;"	d
+SENSOR_TRIGGERED_THRESHOLD	ActionSequence.hh	8;"	d
+SIGNALLING	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+SPIComm	epuck.cc	/^void * Robot::SPIComm(void * ptr)$/;"	f	class:Robot
+SRC	Makefile	/^SRC	=  main.cc epuck.cc support.c spicomm.c utils.cc args.cc$/;"	m
+STATE_COUNT	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+SUPPORT_H	support.h	2;"	d
+SWITCHES_PATH	support.c	18;"	d	file:
+Searching	epuck.cc	/^void Robot::Searching()$/;"	f	class:Robot
+SetLED	epuck.cc	/^void Robot::SetLED(bool on)$/;"	f	class:Robot
+SetSpeed	epuck.cc	/^void Robot::SetSpeed(int lspeed, int rspeed)$/;"	f	class:Robot
+Signalling	epuck.cc	/^void Robot::Signalling()$/;"	f	class:Robot
+Stop	epuck.cc	/^bool Robot::Stop()$/;"	f	class:Robot
+Sum	utils.hh	/^		inline int64_t Sum(){return sum;}$/;"	f	class:Hist
+TARGET_PROG	Makefile	/^TARGET_PROG = ctrl $/;"	m
+UNKNOWN_ROLE	epuck.hh	/^enum role_t{OBSERVER, ACTOR_A, ACTOR_B, UNKNOWN_ROLE};$/;"	e	enum:role_t
+UNKNOWN_STATE	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	e	enum:fsm_state_t
+UTILS_H	utils.hh	2;"	d
+Update	ActionSequence.cc	/^bool ActionSequence::Update(int proximity1, int proximity2)$/;"	f	class:ActionSequence
+Update	epuck.cc	/^bool Robot::Update(uint64_t ts)$/;"	f	class:Robot
+VPATH	Makefile	/^VPATH = .$/;"	m
+_SPICOMM_H	spicomm.h	2;"	d
+acc	spicomm.h	/^    int16_t acc[3];			\/\/ Accelerometer x\/y\/z$/;"	m	struct:rxbuf_t
+addBlob	epuck.cc	/^void addBlob(int x1, int y1, int x2, int y2, unsigned char * img, int width, int height, rgb color)$/;"	f
+amb	spicomm.h	/^    int16_t amb[8];			\/\/ Ambient IR$/;"	m	struct:rxbuf_t
+as	ActionSequence.hh	/^				ActionSequence * as;$/;"	m	class:ActionSequenceList::Node
+avoid_weightleft	epuck.cc	/^const int avoid_weightleft[8] ={ -10, -10, -5, 0, 0, 5, 10, 10};$/;"	v
+avoid_weightright	epuck.cc	/^const int avoid_weightright[8] = {10, 10, 5, 0, 0, -5, -10, -10};$/;"	v
+back	ActionSequence.hh	/^		Node *back;$/;"	m	class:ActionSequenceList
+batt	spicomm.h	/^    int16_t batt;			\/\/ battery level$/;"	m	struct:rxbuf_t
+bits	spicomm.c	/^static uint8_t bits = 16;$/;"	v	file:
+blink_board_led	support.c	/^int blink_board_led(int led_no, int delay_on, int delay_off)$/;"	f
+blob_data	epuck.hh	/^		Blob_info blob_data[MAX_OBJECTS_TRACKED];$/;"	m	class:Robot
+blob_hist	epuck.hh	/^		Hist blob_hist;$/;"	m	class:Robot
+blob_info	epuck.cc	/^blob_info_t blob_info;$/;"	v
+bodyled	spicomm.h	/^	uint16_t bodyled:1;$/;"	m	struct:led_cmd_t
+bumped	epuck.hh	/^        unsigned char bumped;$/;"	m	class:Robot
+cal_acc	spicomm.h	/^	uint16_t cal_acc:1;$/;"	m	struct:cmd_t
+cal_ir	spicomm.h	/^	uint16_t cal_ir:1;$/;"	m	struct:cmd_t
+cap	epuck.hh	/^		Capture cap;$/;"	m	class:Robot
+cmd	spicomm.h	/^    struct cmd_t cmd;		\/\/first two bytes for commands$/;"	m	struct:txbuf_t	typeref:struct:txbuf_t::cmd_t
+cmd_t	spicomm.h	/^struct cmd_t{$/;"	s
+color_filename	epuck.cc	/^const char *color_filename = "..\/colors.txt";$/;"	v
+convBase	utils.cc	/^string convBase(uint16_t v, long base)$/;"	f
+currentTime	main.cc	/^uint32_t currentTime = 0;$/;"	v
+current_action_seq	epuck.hh	/^        ActionSequence * current_action_seq;$/;"	m	class:Robot
+current_state	epuck.hh	/^		fsm_state_t current_state, last_state, previous_state;$/;"	m	class:Robot
+device	spicomm.c	/^static const char *device = "\/dev\/spidev1.0";$/;"	v	file:
+do_msg	spicomm.c	/^void do_msg(int fd, int16_t *txbuf, int16_t *rxbuf, int16_t len)$/;"	f
+dummy	spicomm.h	/^    int16_t dummy;		\/\/ leave it empty$/;"	m	struct:txbuf_t
+duration	ActionSequence.hh	/^        int duration;$/;"	m	class:ActionSequence
+front	ActionSequence.hh	/^		Node *front;$/;"	m	class:ActionSequenceList
+frontled	spicomm.h	/^	uint16_t frontled:1;$/;"	m	struct:led_cmd_t
+fsm_state_t	epuck.hh	/^enum fsm_state_t{OBSERVING=0, GREETINGA,GREETINGB, SEARCHING, RANDOMWALK, SIGNALLING, BYEBYE, UNKNOWN_STATE, STATE_COUNT};$/;"	g
+get_battery	spicomm.c	/^int16_t get_battery()$/;"	f
+get_ir_data	spicomm.c	/^void get_ir_data(int*ir, int size)$/;"	f
+get_switch	support.c	/^int get_switch()$/;"	f
+greetingA	epuck.hh	/^		ActionSequenceList  greetingA;$/;"	m	class:Robot
+greetingB	epuck.hh	/^		ActionSequenceList  greetingB;$/;"	m	class:Robot
+img	epuck.hh	/^		const Capture::Image *img;$/;"	m	class:Robot
+img_height	epuck.hh	/^		int img_height;$/;"	m	class:Robot
+img_width	epuck.hh	/^		int img_width;$/;"	m	class:Robot
+init_spi	spicomm.c	/^int init_spi()$/;"	f
+ir	spicomm.h	/^    int16_t ir[8];			\/\/ IR Ranges$/;"	m	struct:rxbuf_t
+lapsed_time	ActionSequence.hh	/^        int lapsed_time;$/;"	m	class:ActionSequence
+last_state	epuck.hh	/^		fsm_state_t current_state, last_state, previous_state;$/;"	m	class:Robot
+last_triggered_time	ActionSequence.hh	/^        int last_triggered_time;$/;"	m	class:ActionSequence
+lastupdateTime	main.cc	/^uint32_t lastupdateTime = 0;$/;"	v
+led0	spicomm.h	/^	uint16_t led0:1;$/;"	m	struct:led_cmd_t
+led1	spicomm.h	/^	uint16_t led1:1;$/;"	m	struct:led_cmd_t
+led2	spicomm.h	/^	uint16_t led2:1;$/;"	m	struct:led_cmd_t
+led3	spicomm.h	/^	uint16_t led3:1;$/;"	m	struct:led_cmd_t
+led4	spicomm.h	/^	uint16_t led4:1;$/;"	m	struct:led_cmd_t
+led5	spicomm.h	/^	uint16_t led5:1;$/;"	m	struct:led_cmd_t
+led6	spicomm.h	/^	uint16_t led6:1;$/;"	m	struct:led_cmd_t
+led7	spicomm.h	/^	uint16_t led7:1;$/;"	m	struct:led_cmd_t
+led_cmd	spicomm.h	/^    struct led_cmd_t led_cmd;	\/\/command for leds$/;"	m	struct:txbuf_t	typeref:struct:txbuf_t::led_cmd_t
+led_cmd_t	spicomm.h	/^struct led_cmd_t{$/;"	s
+led_cycle	spicomm.h	/^    int16_t led_cycle;		\/\/ blinking rate of LEDS$/;"	m	struct:txbuf_t
+left_motor	spicomm.h	/^    int16_t left_motor;	\/\/speed of left motor$/;"	m	struct:txbuf_t
+leftspeed	ActionSequence.hh	/^        int leftspeed;$/;"	m	class:ActionSequence
+long_options	args.cc	/^static struct option long_options[]=$/;"	v	typeref:struct:option	file:
+main	main.cc	/^int main(int argc, char*argv[])$/;"	f
+mic	spicomm.h	/^    int16_t mic[3];			\/\/ microphones 1,2,3$/;"	m	struct:rxbuf_t
+mode	spicomm.c	/^static uint8_t mode = 1;$/;"	v	file:
+monitor_thread	epuck.hh	/^		pthread_t monitor_thread;$/;"	m	class:Robot
+msgRX	spicomm.c	/^struct rxbuf_t msgRX;$/;"	v	typeref:struct:rxbuf_t
+msgTX	spicomm.c	/^struct txbuf_t msgTX;$/;"	v	typeref:struct:txbuf_t
+name	ActionSequence.hh	/^		char *name;$/;"	m	class:ActionSequence
+name	epuck.hh	/^        char *name;$/;"	m	class:Robot
+next	ActionSequence.hh	/^				Node * next;$/;"	m	class:ActionSequenceList::Node
+num_sensor_triggered	ActionSequence.hh	/^        int num_sensor_triggered;$/;"	m	class:ActionSequence
+offset_x	epuck.hh	/^    int offset_x;$/;"	m	class:Blob_info
+offset_y	epuck.hh	/^    int offset_y;$/;"	m	class:Blob_info
+pabort	spicomm.c	/^void pabort(const char *s)$/;"	f
+parse_args	args.cc	/^int parse_args(int argc, char** argv)$/;"	f
+playSound	spicomm.c	/^void playSound(int index)$/;"	f
+play_sound	spicomm.h	/^	uint16_t play_sound:1;$/;"	m	struct:cmd_t
+previous_state	epuck.hh	/^		fsm_state_t current_state, last_state, previous_state;$/;"	m	class:Robot
+print_usage	args.cc	/^void print_usage(int argc, char** argv)$/;"	f
+proximity	epuck.hh	/^		int proximity[NUM_IRS];$/;"	m	class:Robot
+randomwalk_count	epuck.hh	/^        int randomwalk_count;$/;"	m	class:Robot
+read_acc	spicomm.h	/^	uint16_t read_acc:1;$/;"	m	struct:cmd_t
+read_ir	spicomm.h	/^	uint16_t read_ir:1;$/;"	m	struct:cmd_t
+read_light	spicomm.h	/^	uint16_t read_light:1;$/;"	m	struct:cmd_t
+read_mic	spicomm.h	/^	uint16_t read_mic:1;$/;"	m	struct:cmd_t
+reserved	spicomm.h	/^	uint16_t reserved:6;$/;"	m	struct:led_cmd_t
+reserved	spicomm.h	/^    int16_t reserved[18];	\/\/reserved, in order to makde the txbuf_t and rxbuf_t are in the same size, now 25 16bits words$/;"	m	struct:txbuf_t
+reset	spicomm.h	/^	uint16_t reset:1;$/;"	m	struct:cmd_t
+reset_robot	spicomm.c	/^void reset_robot(int fd)$/;"	f
+reseverd	spicomm.h	/^	uint16_t reseverd:6;$/;"	m	struct:cmd_t
+right_motor	spicomm.h	/^    int16_t right_motor;	\/\/speed of right motor$/;"	m	struct:txbuf_t
+rightspeed	ActionSequence.hh	/^        int rightspeed;$/;"	m	class:ActionSequence
+role	epuck.hh	/^        role_t role;$/;"	m	class:Robot
+role_t	epuck.hh	/^enum role_t{OBSERVER, ACTOR_A, ACTOR_B, UNKNOWN_ROLE};$/;"	g
+rxbuf_t	spicomm.h	/^struct rxbuf_t$/;"	s
+sensor_triggered	ActionSequence.hh	/^        int sensor_triggered;$/;"	m	class:ActionSequence
+setLED	spicomm.c	/^void setLED(int id, int on)$/;"	f
+setLEDs	spicomm.c	/^void setLEDs(int led, int on)$/;"	f
+setSpeed	spicomm.c	/^void setSpeed(int lspeed, int rspeed)$/;"	f
+set_board_led	support.c	/^int set_board_led(int led_no, int on)$/;"	f
+set_led	spicomm.h	/^	uint16_t set_led:1;$/;"	m	struct:cmd_t
+set_motor	spicomm.h	/^	uint16_t set_motor:1;$/;"	m	struct:cmd_t
+sign	utils.hh	/^inline int sign(int num) { return num<0 ? -1 : 1;};$/;"	f
+signalHandler	main.cc	/^void signalHandler(int dummy)$/;"	f
+simple_normal_deviate	utils.cc	/^double simple_normal_deviate( double mean, double stddev )$/;"	f
+size	utils.hh	/^		uint8_t size;$/;"	m	class:Hist
+size_h	epuck.hh	/^    int size_h;$/;"	m	class:Blob_info
+size_w	epuck.hh	/^    int size_w;$/;"	m	class:Blob_info
+sound_num	spicomm.h	/^    int16_t sound_num;		\/\/ sound index [0--8]$/;"	m	struct:txbuf_t
+speed	spicomm.c	/^static uint32_t speed =20000000;$/;"	v	file:
+spi_cond	epuck.cc	/^pthread_cond_t Robot::spi_cond =PTHREAD_COND_INITIALIZER;$/;"	m	class:Robot	file:
+spi_cond	epuck.hh	/^		static pthread_cond_t spi_cond;$/;"	m	class:Robot
+spi_device	epuck.hh	/^		int spi_device;$/;"	m	class:Robot
+spi_mutex	epuck.cc	/^pthread_mutex_t Robot::spi_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	m	class:Robot	file:
+spi_mutex	epuck.hh	/^		static pthread_mutex_t spi_mutex;$/;"	m	class:Robot
+spi_thread	epuck.hh	/^		pthread_t spi_thread;$/;"	m	class:Robot
+state_name	epuck.cc	/^const char *state_name[STATE_COUNT]={"Observing", "GreetingA", "GreetingB", "Searching", "RandomWalk", "Signalling", "ByeBye", "Unknown"};$/;"	v
+stopRobot	main.cc	/^void *stopRobot(void* ptr)$/;"	f
+sum	utils.hh	/^		int64_t sum;$/;"	m	class:Hist
+tacl	spicomm.h	/^    int16_t tacl;			\/\/ steps made on l\/r motors$/;"	m	struct:rxbuf_t
+tacr	spicomm.h	/^    int16_t tacr;$/;"	m	struct:rxbuf_t
+timerHandler	main.cc	/^void timerHandler(int dummy)$/;"	f
+timestamp	epuck.hh	/^	uint32_t timestamp;$/;"	m	class:Blob_info
+timestamp	epuck.hh	/^        uint32_t timestamp;$/;"	m	class:Robot
+triggered_hist	ActionSequence.hh	/^        Hist *triggered_hist;$/;"	m	class:ActionSequence
+txbuf_t	spicomm.h	/^struct txbuf_t$/;"	s
+update	spicomm.c	/^void update(int fd)$/;"	f
+userQuit	main.cc	/^int userQuit = 0;$/;"	v
+valPointer	utils.hh	/^		uint8_t valPointer;$/;"	m	class:Hist
+valueHist	utils.hh	/^		int32_t *valueHist;$/;"	m	class:Hist
+video_device	epuck.cc	/^const char *video_device = "\/dev\/video1";$/;"	v
+vision	epuck.hh	/^        CMVision vision;$/;"	m	class:Robot
+vision_cond	epuck.cc	/^pthread_cond_t Robot::vision_cond =PTHREAD_COND_INITIALIZER;$/;"	m	class:Robot	file:
+vision_cond	epuck.hh	/^		static pthread_cond_t vision_cond;$/;"	m	class:Robot
+vision_mutex	epuck.cc	/^pthread_mutex_t Robot::vision_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	m	class:Robot	file:
+vision_mutex	epuck.hh	/^		static pthread_mutex_t vision_mutex;$/;"	m	class:Robot
+vision_thread	epuck.hh	/^		pthread_t vision_thread;$/;"	m	class:Robot
+wait_btn_trigger	support.c	/^int wait_btn_trigger(unsigned short code)$/;"	f
+~ActionSequence	ActionSequence.hh	/^        ~ActionSequence()$/;"	f	class:ActionSequence
+~ActionSequenceList	ActionSequence.cc	/^ActionSequenceList::~ActionSequenceList()$/;"	f	class:ActionSequenceList
+~Blob_info	epuck.hh	/^        ~Blob_info(){}$/;"	f	class:Blob_info
+~Hist	utils.cc	/^Hist::~Hist()$/;"	f	class:Hist
+~Node	ActionSequence.hh	/^				~Node(){if(as) delete as; as = NULL;};$/;"	f	class:ActionSequenceList::Node
+~Robot	epuck.cc	/^Robot::~Robot()$/;"	f	class:Robot

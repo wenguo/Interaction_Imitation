@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../src/crc16.h</itemPath>
+      <itemPath>../src/epfl/e_acc.h</itemPath>
+      <itemPath>../src/epfl/e_ad_conv.h</itemPath>
+      <itemPath>../src/epfl/e_agenda.h</itemPath>
+      <itemPath>../src/epfl/e_batt.h</itemPath>
+      <itemPath>../src/epfl/e_epuck_ports.h</itemPath>
+      <itemPath>../src/epfl/e_init_port.h</itemPath>
+      <itemPath>../src/epfl/e_led.h</itemPath>
+      <itemPath>../src/epfl/e_micro.h</itemPath>
+      <itemPath>../src/epfl/e_motors.h</itemPath>
+      <itemPath>../src/epfl/e_prox.h</itemPath>
+      <itemPath>../src/epuck.h</itemPath>
+      <itemPath>../src/epfl/filter.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LibraryFiles"
+                   displayName="Library Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <itemPath>/opt/microchip/mplabc30/v3.30b/support/dsPIC30F/gld/p30F6014A.gld</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ObjectFiles"
+                   displayName="Object Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../src/crc16.c</itemPath>
+      <itemPath>../src/epfl/e_acc.c</itemPath>
+      <itemPath>../src/epfl/e_ad_conv.c</itemPath>
+      <itemPath>../src/epfl/e_agenda.c</itemPath>
+      <itemPath>../src/epfl/e_batt.c</itemPath>
+      <itemPath>../src/epfl/e_init_port.c</itemPath>
+      <itemPath>../src/epfl/e_led.c</itemPath>
+      <itemPath>../src/epfl/e_micro.c</itemPath>
+      <itemPath>../src/epfl/e_motors.c</itemPath>
+      <itemPath>../src/epfl/e_prox.c</itemPath>
+      <itemPath>../src/epfl/filter.c</itemPath>
+      <itemPath>../src/main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>dsPIC30F6014A</targetDevice>
+        <targetHeader></targetHeader>
+        <platformTool>ICD3PlatformTool</platformTool>
+        <languageToolchain>C30</languageToolchain>
+        <languageToolchainVersion>3_30b</languageToolchainVersion>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <C30>
+      </C30>
+      <C30-AS>
+      </C30-AS>
+      <C30-LD>
+        <property key="preprocessor-macros" value=""/>
+        <property key="general-code-protect" value="no_code_protect"/>
+        <property key="secure-write-protect" value="no_write_protect"/>
+        <property key="warn-section-align" value="false"/>
+        <property key="heap-size" value="512"/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="stack-size" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="enable-pack-data" value="true"/>
+        <property key="boot-eeprom" value="no_eeprom"/>
+        <property key="general-write-protect" value="no_write_protect"/>
+        <property key="enable-handles" value="true"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="secure-flash" value="no_flash"/>
+        <property key="boot-write-protect" value="no_write_protect"/>
+        <property key="boot-flash" value="no_flash"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="input-libraries" value=""/>
+        <property key="secure-ram" value="no_ram"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="symbol-stripping" value="keep-all"/>
+        <property key="boot-ram" value="no_ram"/>
+        <property key="secure-eeprom" value="no_eeprom"/>
+        <property key="extra-lib-directories" value=""/>
+      </C30-LD>
+      <C30Global>
+      </C30Global>
+      <ICD3PlatformTool>
+      </ICD3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>

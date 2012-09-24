@@ -1,0 +1,6 @@
+#!/bin/bash
+modprobe -r poX030
+sleep 1
+modprobe -r atmel_isi
+sleep 1
+modprobe poX030

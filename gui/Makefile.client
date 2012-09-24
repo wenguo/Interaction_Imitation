@@ -1,0 +1,48 @@
+# makefile configuration
+SRC	=  capture.cc cmvision.cc v4l_helper.cc client.cc
+
+TARGET_PROG = client
+
+OBJDIR = ./build_$(TARGET_PROG)
+OBJECTS = $(SRC:%.cc=$(OBJDIR)/%.o)
+
+BINDIR = ./
+
+IPATH = ./
+IPATH += ../
+IPATH += ../cmvision
+
+CC = g++
+
+CFLAGS  = -O2 -Wall -g -D_GNU_SOURCE
+CFLAGS += -DLAPTOP
+#CFLAGS += -DTRANSFER_RGB
+#CFLAGS  = -O2 -Wall -g -D_GNU_SOURCE
+CFLAGS += ${patsubst %,-I%,${IPATH}}
+CFLAGS += -ffast-math
+CFLAGS +=`fltk-config --cflags`
+
+VPATH = ./
+VPATH += ../cmvision 
+
+LIBS =  -L. -lz
+
+.Phony: clean
+
+all: mkobjectsdir $(TARGET_PROG)
+
+mkobjectsdir:
+	mkdir -p $(OBJDIR)
+
+removeobjects:
+	rm -rf $(OBJDIR)
+
+$(TARGET_PROG): ${OBJECTS}
+	${CC} ${CFLAGS} -o ${BINDIR}/$@ $^ $(LIBS)
+
+
+$(OBJDIR)/%.o: %.cc
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	${RM} -rf $(OBJDIR) ${BINDIR}/$(TARGET_PROG)

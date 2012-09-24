@@ -1,0 +1,9 @@
+--cmvision
+  blob detection algorithm 
+--ctrl
+  control code for epuck robot
+--epuck_side
+  low level dspic code for epuck robot
+--gui
+  debuging and monitoring tools for experiments
+
